@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+    body {
+      background-color: #FFFF00;
+    }
+    
+    /* Center the form on the page */
+    #login-form {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      padding: 20px;
+      border: 1px solid #ccc;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    a{
+        text-decoration: none;
+        display: flex;
+        text-align: right;
+    }
+
+  </style>
+  
+  <form id="login-form">
+    <h2>Login</h2>
+    <div>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required>
+    </div>
+    <br>
+    <div>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+    </div>
+    <br><a href="/Form2.html">Forgate Password</a><br>
+    <button type="submit">Login</button>
+    
+    
+  </form>
+</body>
+</html>
